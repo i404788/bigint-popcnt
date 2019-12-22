@@ -1,0 +1,11 @@
+{
+  "name": "bigint-popcnt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+	"clean": "rm -rf *.js"
+  },
+  "repository": "https://github.com/i404788/bigint-popcnt",
+  "author": "i404788 <casper[at]devdropletsdotcom>",
+  "license": "BSD-2-Clause"
+}
