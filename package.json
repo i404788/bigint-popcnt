@@ -5,7 +5,7 @@
         "scripts": {
                 "clean": "rm -rf *.js *.d.ts",
                 "prebuild": "rm -rf ./*.js ./*.d.ts",
-                "build": "tsc",
+                "build": "node_modules/.bin/tsc",
                 "prepack": "node_modules/.bin/tsc"
         },
         "repository": "https://github.com/i404788/bigint-popcnt",
