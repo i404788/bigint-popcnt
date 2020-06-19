@@ -6,7 +6,7 @@
                 "clean": "rm -rf *.js *.d.ts",
                 "prebuild": "rm -rf ./*.js ./*.d.ts",
                 "build": "tsc",
-                "prepublishOnly": "yarn build"
+                "prepack": "yarn build"
         },
         "repository": "https://github.com/i404788/bigint-popcnt",
         "author": "i404788 <casper[at]devdropletsdotcom>",
