@@ -10,5 +10,8 @@
         },
         "repository": "https://github.com/i404788/bigint-popcnt",
         "author": "i404788 <casper[at]devdropletsdotcom>",
-        "license": "BSD-2-Clause"
+        "license": "BSD-2-Clause",
+        "devDependencies": {
+                "typescript": "^3.8.3"
+        }
 }
