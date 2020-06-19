@@ -6,12 +6,13 @@
                 "clean": "rm -rf *.js *.d.ts",
                 "prebuild": "rm -rf ./*.js ./*.d.ts",
                 "build": "tsc",
-                "prepack": "tsc"
+                "prepare": "yarn run prepack",
+                "prepack": "node_modules/.bin/tsc"
         },
         "repository": "https://github.com/i404788/bigint-popcnt",
         "author": "i404788 <casper[at]devdropletsdotcom>",
         "license": "BSD-2-Clause",
-        "dependencies": {
+        "devDependencies": {
                 "typescript": "^3.8.3"
         }
 }
